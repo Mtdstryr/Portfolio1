@@ -15,7 +15,6 @@ html {
 
 .set{
 font-size:150px;
-font-family:"Oswald", sans-serif;
 color:#662f1a;
 text-transform:uppercase;
 position:absolute;
@@ -27,7 +26,6 @@ left:200px;
 
 .your{
 font-size:100px;
-font-family:"Oswald", sans-serif;
 color:#f0ccc5;
 text-transform:uppercase;
 position:absolute;
@@ -67,7 +65,15 @@ left:600px;
 
 }
 	
+.fl{
+font-size:150px;
+color:#F54807;
+text-transform:lowercase;
+position:absolute;
+top:700px;
+left:1350px;
 
+}
 
 footer{
 font-size:20px;
