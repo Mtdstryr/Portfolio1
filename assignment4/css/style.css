@@ -1,0 +1,83 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+	background-color: #F7b59a;
+
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+.set{
+font-size:150px;
+font-family:"Oswald", sans-serif;
+color:#662f1a;
+text-transform:uppercase;
+position:absolute;
+top:50px;
+left:200px;
+
+
+}
+
+.your{
+font-size:100px;
+font-family:"Oswald", sans-serif;
+color:#f0ccc5;
+text-transform:uppercase;
+position:absolute;
+top:150px;
+left:650px;
+}
+
+.heart{
+font-size:140px;
+color:#Ce4f1e;
+text-transform:uppercase;
+word-spacing:150px;
+position:absolute;
+top:300px;
+left:550px;
+font-family: "Oswald", sans-serif;
+}
+
+.ablaze{
+font-size:200px;
+color:#Ff4700;
+text-transform:uppercase;
+position:absolute;
+top:450px;
+left:76px;
+
+}
+
+.jp{
+font-family: 'Noto Sans JP', sans-serif;
+font-size:150px;
+color:#F54807;
+text-transform:lowercase;
+position:absolute;
+top:700px;
+left:600px;
+
+}
+	
+
+
+footer{
+font-size:20px;
+position:absolute;
+bottom:1px;
+left:1px;	
+}
+
+
+
+
+
+
