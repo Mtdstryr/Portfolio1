@@ -1,0 +1,182 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+body{
+	
+background-color: red;
+
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+#object1 {
+  margin-top: 100px;
+  font-size: 200px;
+  transition: transform 3s;
+
+}
+
+#object1:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(90deg);
+}
+
+#object2 {
+  margin-top:100px;
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  transition: width 4s;
+	
+}
+
+#object2:hover {
+  width: 300px;
+	
+}
+
+#object3 {
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: switch;
+  animation-duration: 4s;
+
+}
+
+@keyframes switch {
+  from {background-color: green;}
+  to {background-color: blue;}
+	
+}
+
+#object4 {
+  margin-top:150px;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width 2s, height 2s, transform 2s;
+	
+}
+
+#object4:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+	
+}
+
+#object5 {
+	margin-top: 100px;
+	font-size: 200px;
+	transition: transform 5s;
+	
+}
+
+#object5:hover{
+	transform: rotate(360deg);
+
+}
+
+#object6{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  animation-name: crazy;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+
+}
+
+@keyframes crazy {
+	
+  0%   {background-color:orange; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:orange; left:0px; top:0px;}
+}
+
+#object7{
+  width: 100px;
+  height: 100px;
+  background: purple;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#object7:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+
+
+#object8{
+	margin-top:100px;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+	transition: transform 2s;
+}
+	
+}
+
+#object8:hover{
+	transform: rotate(180deg);
+	
+	
+}
+
+#object9{
+	width: 100px;
+  height: 100px;
+  background: black;
+  transition: width 2s, height 2s, transform 2s
+	
+}
+
+#object9:hover {
+	width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+	
+	
+}
+
+#object10 {
+	width: 100px;
+  height: 100px;
+  background: white;
+  transition: width 2s, height 2s, transform 5s
+	
+	
+}
+
+#object10:hover {
+	
+	width: 300px;
+  height: 300px;
+  transform: rotate(90deg);
+	
+}
+
+#container {
+	
+}
+
+
+
+
