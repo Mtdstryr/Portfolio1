@@ -1,0 +1,59 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background-color:#ebab57;
+    font-family:'Playfair Display', serif;
+}
+
+
+#container {
+	margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+#box{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 3em;
+    font-family: serif;
+    color: yellow;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#MC {
+	float: right;
+    width: 600px;
+    margin-top:10px;
+    padding:0.5em;
+    background:url(../img/chick-fil-a_logo_3290.jpg);
+    color:pink;
+    border:2px solid white;
+}
+
+

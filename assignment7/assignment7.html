@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Assignment7</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<script>
+       function random(){
+            var answers= [
+                "McDonalds", 
+
+                "TacoBell",  
+
+                "KFC",  
+
+                "Wendys",  
+
+                "Arbys", 
+
+                "Culvers",  
+
+                "Giordano's",  
+
+                "Chik Fil A",  
+
+                "Chinatown/Boba",  
+
+                "Popeyes",  
+
+                "Five Guys" 
+            ]
+            var createAnswer = answers[Math.floor(Math.random() * answers.length)];
+            var result = document.querySelector("#result");
+            result.innerText = createAnswer;
+        }
+        function select() {
+            document.querySelector("#question").innerText = "What Restaurant/FastFood place we going to?";
+        }
+    </script>	
+</head>
+
+
+<body>
+<button id="box" onclick="select()"> Talk to the AI</button>
+    <div id="container">
+        <form>
+            <p id="question">Ask the bot about what you should eat</p>
+            <input type="text">
+            <input type="button" onclick="random()" value="We going to eat at...">
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+	
+</html> 
