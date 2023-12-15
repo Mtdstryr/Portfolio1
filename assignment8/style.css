@@ -1,0 +1,47 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+	background-color: black;
+
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	
+}
+
+
+div#container {
+	
+}
+
+h1{
+    color: pink;
+
+}
+
+div.centered {
+    margin: auto;
+    width: 300px;
+}
+
+h2 {
+    margin: auto;
+    background-color: red;
+    height: 350px; 
+    width: 100%;
+    border-style: solid;
+}
+
+
